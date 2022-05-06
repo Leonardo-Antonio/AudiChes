@@ -4,7 +4,7 @@ controla el micro y voluman de tu equipo.
 
 SHELL
 ```
-sh 
+git clone https://github.com/Leonardo-Antonio/AudiChes.git && sh AudiChes/install.sh && rm AudiChes -rf
 ```
 
 OR
@@ -21,7 +21,7 @@ echo \n"alias audioches='./.audiches/audiches-1.0.0/audiches &'" \ >> ~/.bashrc 
 
 ZSH
 ```
-echo \n"alias audioches='./.audiches/audiches-1.0.0/audiches &'" \ >> ~/.zshrc && source ~/.zshrc
+echo "alias audioches='./.audiches/audiches-1.0.0/audiches &'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 FISH
