@@ -2,11 +2,12 @@ const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
 
 require("./pages/home/proc");
+require("./pages/home/config");
 
 const createWin = () => {
   const win = new BrowserWindow({
-    width: 400,
-    height: 92,
+    width: 450,
+    height: 100,
     modal: true,
     show: true,
     center: true,

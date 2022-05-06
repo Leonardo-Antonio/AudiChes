@@ -6,35 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AudiChes</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../../assets/css/global.css">
 </head>
 
 <body>
-    <div>
-        <div>
+    <div class="full">
+        <div class="full">
 
-            <section class="flex flex-row gap-4 justify-center items-center">
+            <section class="full">
 
                 <div class="container__icons">
 
                     <div class="icon">
-                        <button id="btn_micriphone_add"><i class='bx bxs-microphone'></i></button>
+                        <button id="btn_micriphone_add">
+                            <img id="micriphone_add_img" src="../../assets/image/microphone_unmute.svg"
+                                alt="btn_micriphone_add">
+                        </button>
                     </div>
 
                     <div class="icon">
-                        <button id="btn_micriphone_off"><i class='bx bxs-microphone-off'></i></button>
+                        <button id="btn_micriphone_off">
+                            <img id="micriphone_off_img" src="../../assets/image/microphone_mute.svg"
+                                alt="microphone_mute">
+                        </button>
                     </div>
                     <div class="icon">
-                        <button id="btn_vol_add"><i class='bx bxs-volume-full'></i></button>
+                        <button id="btn_vol_add">
+                            <img id="vol_add_img" src="../../assets/image/vol_add.svg" alt="vol_add">
+                        </button>
                     </div>
                     <div class="icon">
-                        <button id="btn_vol_low"><i class='bx bxs-volume-low'></i></button>
+                        <button id="btn_vol_low">
+                            <img id="vol_low_img" src="../../assets/image/vol_min.svg" alt="vol_min">
+                        </button>
                     </div>
 
                     <div class="icon">
-                        <button id="btn_vol_mute"><i class='bx bxs-volume-mute'></i></button>
+                        <button id="btn_vol_mute">
+                            <img id="vol_mute_img" src="../../assets/image/vol_mute.svg" alt="vol_mute">
+                        </button>
                     </div>
                 </div>
 
