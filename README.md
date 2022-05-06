@@ -1,6 +1,27 @@
 # AudiChes
 
-controla el micro y voluman de tu equipo.
+Controla el micro y volumen de tu equipo.
+Personalizalo a tu gusto, cambiar el color e iconos a tu estilo 
+
+Configuración
+```
+nano ~/.audiches/config.jsonc
+```
+
+FILE CONFIGURATION
+```
+{
+  "bgColor": "#ccc",
+  "icons": {
+    "micriphone_add_img": "../../assets/image/microphone_unmute.svg",
+    "micriphone_off_img": "../../assets/image/microphone_mute.svg",
+    "vol_add_img": "../../assets/image/vol_add.svg",
+    "vol_low_img": "../../assets/image/vol_min.svg",
+    "vol_mute_img": "../../assets/image/vol_mute.svg"
+  }
+}
+
+```
 
 SHELL
 ```
