@@ -26,6 +26,6 @@ echo "alias audioches='./.audiches/audiches-1.0.0/audiches &'" >> ~/.zshrc && so
 
 FISH
 ```
-echo \n"alias audioches='./.audiches/audiches-1.0.0/audiches &'" \ >> ~/.config/fish/config.fish && ~/.config/fish/config.fish
+echo \n"alias audioches='./.audiches/audiches-1.0.0/audiches &'" \ >> ~/.config/fish/config.fish && source ~/.config/fish/config.fish
 ```
 
