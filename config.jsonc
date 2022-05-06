@@ -1,0 +1,10 @@
+{
+  "bgColor": "#ccc",
+  "icons": {
+    "micriphone_add_img": "../../assets/image/microphone_unmute.svg",
+    "micriphone_off_img": "../../assets/image/microphone_mute.svg",
+    "vol_add_img": "../../assets/image/vol_add.svg",
+    "vol_low_img": "../../assets/image/vol_min.svg",
+    "vol_mute_img": "../../assets/image/vol_mute.svg"
+  }
+}
